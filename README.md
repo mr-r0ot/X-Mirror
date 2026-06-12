@@ -66,7 +66,7 @@ cd X-Mirror
 pip install -r requirements.txt
 
 # run project
-python app.py
+python main.py
 ```
 
 ### نسخهٔ ویندوز
