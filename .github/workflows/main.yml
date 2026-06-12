@@ -31,7 +31,7 @@ jobs:
       - name: Build EXE
         shell: pwsh
         run: |
-          pyinstaller --noconfirm --clean --onefile --name X-Mirror --add-data "templates;templates" app.py
+          pyinstaller --noconfirm --clean --onefile --name X-Mirror --add-data "templates;templates" main.py
 
       - name: Create GitHub Release and upload EXE
         shell: pwsh
